@@ -1,0 +1,59 @@
+body{
+    background: #F4F4F4;
+}
+.flex{
+    display: flex;
+}
+header{
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0px;
+    margin: 0px;
+    width: 100vw;
+}
+main{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.page1{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-zurag{
+    gap: 40px 40px;
+
+
+}
+header img{
+    width: 50px;
+    height: 42px;
+
+}
+.des-text h3 {
+    color: #1ac74a;
+    font-size: 32px;
+    font-weight: 400;
+
+}
+.des-text h2{
+    color: #303030;
+    font-size: 48px;
+    font-weight: 700;
+}
+section{
+    width: 1200px;
+}
+h1{
+    color: #303030;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 800;
+
+}
+.main-zurag img{
+    width: 250px;
+    height: 400px;
+}
