@@ -22,10 +22,14 @@ main{
     justify-content: center;
     align-items: center;
 }
+.page2{
+    flex-direction: row;
+    justify-content: space-between  ;
+    align-items: center;
+    position: relative;
+}
 .main-zurag{
     gap: 40px 40px;
-
-
 }
 header img{
     width: 50px;
@@ -36,7 +40,7 @@ header img{
     color: #1ac74a;
     font-size: 32px;
     font-weight: 400;
-
+    margin: 0px;
 }
 .des-text h2{
     color: #303030;
@@ -45,6 +49,7 @@ header img{
 }
 section{
     width: 1200px;
+    height: 100vh;
 }
 h1{
     color: #303030;
@@ -57,3 +62,96 @@ h1{
     width: 250px;
     height: 400px;
 }
+.destination{
+    flex-direction: column;
+    gap: 40px 0px ;
+}
+.day1-css{
+    width: 400px;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+.loc{
+   justify-content: flex-end ;
+   flex-direction: column;
+   align-items: flex-end    ;
+}
+.card-text{
+    color: #303030;
+    font-size: 18px;
+    font-weight: 700;
+}
+.loc div{
+    color: #303030;
+    font-size: 16px;
+    font-weight: 700;
+}
+.loc p{
+    color: #777;
+    font-size: 12px;
+    font-weight: 400;
+}
+.des-card{
+    flex-direction: column;
+    gap: 20px 0px;
+}
+.midle-zurag{
+    width: 598px;
+    height: 894px;
+}
+
+.midle-zurag img{
+    width: 598px;
+    height: 894px;
+}
+.img1{
+    position: absolute;
+    right: 0px;
+    top: 85px;
+    width: 598px;
+    height: 894px;
+}
+.day2:hover ~ .img1{
+    background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/2e/b6/13/photo5jpg.jpg?w=1200&h=-1&s=1);
+}
+.day2:hover {
+    background-color: black;
+    color: white;
+} 
+.day3:hover ~ .img1{
+    background-image: url(https://www.selenatravel.com/upload/media/page/0001/01/f0e08b1fcd31d82bed66ee099379a533fb6bdc85.jpeg);
+}
+.day3:hover {
+    background-color: black;
+    color: white;
+}
+.day4:hover ~ .img1{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/ba/Horgo.JPG);
+}
+.day4:hover {
+    background-color: black;
+    color: white;
+}
+.day5:hover ~.img1{
+    background-image: url(https://media.cntraveler.com/photos/5873b4bd58987e2c0e8cb1ce/16:9/w_2560%2Cc_limit/GettyImages-87949901.jpg);
+}
+.day5:hover{
+    background-color: black;
+}
+.pricing-text{
+    color: #303030;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+.pricing-h3{
+    color: #1ac74a;
+    font-size: 32px;
+    font-weight: 400;
+    margin: 0px;
+}
+
+
